@@ -7,9 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-   "dependencies":{
-  	"express":"*",
-  	"body-parser":"*"
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-session": "^1.15.5",
+    "express-validator": "^4.1.1"
   },
   "author": "Harkirat Singh Randhawa",
   "license": "ISC"
