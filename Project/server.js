@@ -75,13 +75,11 @@ app.post('/home',function(request,response){
 			}
 			else{
 				response.redirect('/login');
-				response.write("Incorrect Password!! Please Try AGAIN!!!");
 				response.end();
 			}
 		}
 		else{
 			response.redirect('/login');
-			response.write("Incorrect Username!! Please Try AGAIN!!!");
 			response.end();
 		}
 });

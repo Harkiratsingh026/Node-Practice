@@ -1,13 +1,41 @@
 <html>
 <head>
 <title>LOGIN PAGE</title>
+<style>
+    body {
+	    background-color: rgba(0,120,10,.4);
+	    margin: 0;
+	    padding: 0;
+    }
+    div {
+    	width:250px;
+    	height:80px;
+	    background-color: lightgrey;
+	    border: 25px solid green;
+	    padding: 25px;
+	    margin: 25px;
+	    align-content: center;
+	    top: 50%;
+	    position: absolute;
+    	top: 50%;
+	    left: 50%;
+	    margin-top: -180px;
+	    margin-left: -140px;
+	}
+    h1 {
+        color : #000000;
+        text-align : center;
+        font-family: "SIMPSON";
+    }
+    </style>
 </head>
 <body>
+<div class='container'>
 <form action="home" method="post">
 Username:<input type='text' name="name"><br>
 Password:<input type='password' name="password"><br>
 <input type="submit" value="submit"><br>
 </form>
-<h1>Hello World</h1>
+</div>
 </body>
 </html>
